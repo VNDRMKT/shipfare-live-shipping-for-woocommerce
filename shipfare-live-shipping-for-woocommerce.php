@@ -6,6 +6,25 @@ Description: This Plugin adds possibility to use Shipfare live shipping services
 Version: 1.0.0
 Author: Shipfare
 Author URI: https://shipfare.com/
+License:      GPL2
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Domain Path: /lang
+Text Domain: shipfare_ls
+*/
+
+/*
+Shipfare Live Shipping 4 Woocommerce is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+any later version.
+
+Shipfare Live Shipping 4 Woocommerce is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Shipfare webhook helper. If not, see https://www.gnu.org/licenses/gpl-2.0.html.
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
