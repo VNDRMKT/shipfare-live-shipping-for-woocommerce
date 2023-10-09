@@ -221,9 +221,9 @@ class Shipfare_Live_Shipping_Service extends WC_Shipping_Method
 				}
 			} elseif ( empty( $package['destination']['country'] )
 			           || empty( $package['destination']['postcode'] )
-			           || empty( $package['destination']['city'] )
-			           || ( empty( $package['destination']['address_1'] ) && empty( $package['destination']['address'] ) )
-			           || $destinationStateRequired && empty( $package['destination']['state'] )
+			          //  || empty( $package['destination']['city'] )
+			          //  || ( empty( $package['destination']['address_1'] ) && empty( $package['destination']['address'] ) )
+			           || ($destinationStateRequired && empty( $package['destination']['state'] ))
 			) {
 				return $this->rates;
 			}
