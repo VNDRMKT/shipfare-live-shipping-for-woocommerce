@@ -237,9 +237,9 @@ class Shipfare_Live_Shipping_Service extends WC_Shipping_Method
 		unset( $package['rates'] );
 		$suffixByRateId = true;
 
-		if ( defined( 'ICONIC_WDS_BASENAME' ) && function_exists( 'is_plugin_active' )) {
-			$suffixByRateId = !is_plugin_active( ICONIC_WDS_BASENAME );
-		}
+		// if ( defined( 'ICONIC_WDS_BASENAME' ) && function_exists( 'is_plugin_active' )) {
+		// 	$suffixByRateId = !is_plugin_active( ICONIC_WDS_BASENAME );
+		// }
 
 		try {
 			foreach ($this->_requestRates($package) as $rate) {
